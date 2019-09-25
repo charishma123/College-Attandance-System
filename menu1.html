@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+    body
+{
+    margin:0px;
+    padding: 0px;
+}
+    ul{
+        padding: 0;
+        list-style: none;
+        background: #f2f2f2;
+    }
+    ul li{
+        display: inline-block;
+        position: relative;
+        line-height: 21px;
+        text-align: left;
+
+    }
+    ul li a{
+        display: block;
+        padding: 10px 35px;
+        color: #333;
+            text-decoration: none;
+    }
+    ul li a:hover{
+        color: #fff;
+        background: #939393;
+    }
+    ul li ul.dropdown{
+        min-width: 100%; /* Set width of the dropdown */
+        background: #f2f2f2;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+    }
+    ul li:hover ul.dropdown{
+        display: block; /* Display the dropdown */
+    }
+    ul li ul.dropdown li{
+        display: block;}
+    ul
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+</style>
+</head>
+<body background="images\10.jpg">
+<!--<div class="logo"><img src="images/7.jpg" border-radius:"50%"></div>-->
+    <ul>
+        <li><a href="adminprofile.php">Home</a></li>
+             <li><a href="student.php">Student</a></li>
+              <li><a href="faculty.php">Faculty</a></li>
+               <li><a href="logout.php">Logout</a></li>
+    
+    </ul>
+</body>
+</html>
